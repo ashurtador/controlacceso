@@ -5,30 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ControlAcceso</title>
+    <link rel="stylesheet" href="../controlacceso-1/estilos.css">
 </head>
 <body>
-    <h1>Control de Acceso a Unidad Residencial</h1>
-
-    <ul>
-        <li><button><a href="../controlacceso-1/registroAcceso.html">Registro de Acceso</a></button></li>
-        <li><button><a href="../controlacceso-1/registroUsuario.html">Registro de Usuario</a></button></li>
-        <li><button><a href="../controlacceso-1/busquedaRegistro.html">Busqueda de Registro</a></button></li>
-    </ul>
-
-    <h2>Registro de Acceso</h2>
+    <div>
+        <h1>Control de Acceso a Unidad Residencial</h1>
+    </div>
     
-    <form>
+    <div>
+        <ul>
+            <li><a href="../controlacceso-1/registroAcceso.html">Registro de Acceso</a></li>
+            <li><a href="../controlacceso-1/registroUsuario.html">Registro de Usuario</a></li>
+            <li><a href="../controlacceso-1/busquedaRegistro.html">Busqueda de Registro</a></li>
+        </ul>
+    </div>
 
-        <input type="radio" id="peaton" name="identificacion" value="1">
-        <label for="cedula">Cédula:</label><br>
-        <input type="text" id="cedula" name="cedula"><br>
+    <div>
+        <h2>Registro de Acceso</h2>
 
-        <input type="radio" id="vehiculo" name="identificacion" value="2">
-        <label for="placa">Placa:</label><br>
-        <input type="text" id="placa" name="placa"><br>
+            <form>
 
-        <button><a>Registrar</a></button>
-    </form>
+                <input type="radio" id="peaton" name="identificacion" value="1">
+                <label for="cedula">Cédula:</label>
+                <input type="text" id="cedula" name="cedula">
+
+                <input type="radio" id="vehiculo" name="identificacion" value="2">
+                <label for="placa">Placa:</label>
+                <input type="text" id="placa" name="placa">
+                
+                <br><button><a>Registrar</a></button>
+            </form>
+    </div>
+    
 
 </body>
 </html>

@@ -1,0 +1,21 @@
+
+div{
+    border: 1x solid green; 
+}
+h1 {
+    background-color: lightgreen; text-align: center; padding: 25px 50px;
+}
+ul {
+    list-style-type: none; margin: 0; padding: 0; background-color: lightgrey; 
+    height: 100%; position: fixed; overflow: auto;
+}
+li a {
+    display: block; padding: 25px 50px; border-bottom: 1px solid darkgreen;
+}
+li a:hover {
+    background-color: lightgreen;
+}
+button{
+    background-color: lightgreen; border: 1px solid; padding: 10px 50px;
+}
+

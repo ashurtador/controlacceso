@@ -5,34 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RegistroVehiculos</title>
+    <link rel="stylesheet" href="../controlacceso-1/estilos.css">
 </head>
 <body>
+    <div>
+        <h1>Control de Acceso a Unidad Residencial</h1>
+    </div>
 
-    <h1>Control de Acceso a Unidad Residencial</h1>
+    <div>
+        <ul>
+            <li><a href="../controlacceso-1/registroAcceso.html">Registro de Acceso</a></li>
+            <li><a href="../controlacceso-1/registroUsuario.html">Registro de Usuario</a></li>
+            <li><a href="../controlacceso-1/busquedaRegistro.html">Busqueda de Registro</a></li>
+        </ul>
+    </div>
 
-    <ul>
-        <li><button><a href="../controlacceso-1/registroAcceso.html">Registro de Acceso</a></button></li>
-        <li><button><a href="../controlacceso-1/registroUsuario.html">Registro de Usuario</a></button></li>
-        <li><button><a href="../controlacceso-1/busquedaRegistro.html">Busqueda de Registro</a></button></li>
-    </ul>
-
-    <h2>Busqueda de Registro</h2>
+    <div>
+            <h2>Busqueda de Registro</h2>
 
     <form>
         <input type="radio" id="unidad" name="unidad" value="1">
-        <label for="unidad">Unidad:</label><br>
-        <input type="text" id="unidad" name="unidad"><br>
+        <label for="unidad">Unidad:</label>
+        <input type="text" id="unidad" name="unidad">
 
         <input type="radio" id="peaton" name="identificacion" value="2">
-        <label for="cedula">Cédula:</label><br>
-        <input type="text" id="cedula" name="cedula"><br>
+        <label for="cedula">Cédula:</label>
+        <input type="text" id="cedula" name="cedula">
 
         <input type="radio" id="vehiculo" name="identificacion" value="3">
-        <label for="placa">Placa:</label><br>
-        <input type="text" id="placa" name="placa"><br>
+        <label for="placa">Placa:</label>
+        <input type="text" id="placa" name="placa">
 
-        <button><a>Buscar</a></button>
+        <br><button><a>Buscar</a></button>
     </form>
+
+    </div>
     
 </body>
 </html>
