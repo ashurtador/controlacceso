@@ -1,22 +1,37 @@
 
-h1 {
+header {
     background-color: lightgreen; text-align: center; padding: 25px 50px;
 }
+nav {
+    width: 25%;
+    float: left;
+}
 ul {
-    list-style-type: none; margin: 0; padding: 0; background-color: lightgrey; 
-    height: 100%; position: fixed; overflow: auto;
+    list-style-type: none; background-color: lightgreen; padding: 0; height: 100%; position: fixed; overflow: auto;
 }
 li a {
-    display: block; padding: 25px 50px; border-bottom: 1px solid darkgreen;
+    display: block; padding: 25px 50px; border-bottom: 1px solid darkgreen; text-decoration: none;
 }
 li a:hover {
-    background-color: lightgreen;
+    background-color: lightgrey;
 }
 button{
-    background-color: lightgreen; border: 1px solid; padding: 10px 50px;
+    background-color: lightgreen; border: 1px solid; padding: 10px 50px; float: center
 }
-
-.relative {
+main {
     text-align: center;
+    width: 80%;
+    float: right;
 }
+.form1{
+    width: 49%;
+    float: left;
+    text-align: center;
 
+}
+.form2{
+    width: 49%;
+    float: right;
+    text-align: center;
+
+}

@@ -5,52 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ControlAcceso</title>
+    <link rel="icon" href="../imagenes/icono_seguridad.png">
     <link rel="stylesheet" href="../controlacceso-1/estilos.css">
 </head>
 <body>
-    <div>
+    <header>
         <h1>Control de Acceso a Unidad Residencial</h1>
-    </div>
+    </header>
 
-    <div>
+    <nav>
         <ul>
-            <li><a href="../controlacceso-1/registroAcceso.html">Registro de Acceso</a></li>
-            <li><a href="../controlacceso-1/registroUsuario.html">Registro de Usuario</a></li>
-            <li><a href="../controlacceso-1/busquedaRegistro.html">Busqueda de Registro</a></li>
+            <li><a href="../controlacceso-1/registroAcceso.html"><h3>Registro de Acceso</h3></a></li>
+            <li><a href="../controlacceso-1/registroUsuario.html"><h3>Registro de Usuario</h3></a></li>
+            <li><a href="../controlacceso-1/busquedaRegistro.html"><h3>Busqueda de Registro</h3></a></li>
         </ul>
-    </div>
+    </nav>
 
-    <div class="relative">
-        <h2>Registro de Usuario</h2>
-
-        <form>
-            <input type="radio" id="peaton" name="identificacion" value="1">
-            <label for="peaton">Peaton</label><br>
-                <label for="cedula">Cédula:</label><br>
-                <input type="text" id="cedula" name="cedula"><br>
-                <label for="nombres">Nombres:</label><br>
-                <input type="text" id="nombres" name="nombres"><br>
-                <label for="cedula">Apelliodos:</label><br>
-                <input type="text" id="apellidos" name="apellidos"><br>
-                <label for="nombres">Unidad:</label><br>
-                <input type="text" id="unidad" name="unidad"><br>
-                <label for="cedula">Residente/Visitante:</label><br>
-                <input type="text" id="residente_visitante" name="residente_visitante"><br>
-                <label for="nombres">Vehiculo:</label><br>
-                <input type="text" id="vehiculo" name="vehiculo"><br>
-
-                <input type="radio" id="vehiculo" name="identificacion" value="2">
-                <label for="vehiculo">Vehiculo</label><br>
-                    <label for="cedula">Placa:</label><br>
-                    <input type="text" id="placa" name="placa"><br>
-                    <label for="nombres">Unidad:</label><br>
-                    <input type="text" id="unidad" name="unidad"><br>
-                    <label for="cedula">Residente/Visitante:</label><br>
-                    <input type="text" id="residente_visitante" name="residente_visitante"><br>
-
-        </form>
-
-        <button><a>Registrar</a></button>
-    </div>
+    <main>
+        <div >
+            <h2>Registro de Usuario</h2>
+        </div>
+        <div>
+            <form>
+                <div class="form1">
+                    <input type="radio" id="peaton" name="identificacion" value="1">
+                    <label for="peaton">Peaton</label><br><br>
+                        <label for="cedula">Cédula:</label><br>
+                        <input type="text" id="cedula" name="cedula"><br>
+                        <label for="nombres">Nombres:</label><br>
+                        <input type="text" id="nombres" name="nombres"><br>
+                        <label for="cedula">Apelliodos:</label><br>
+                        <input type="text" id="apellidos" name="apellidos"><br>
+                        <label for="nombres">Unidad:</label><br>
+                        <input type="text" id="unidad" name="unidad"><br>
+                        <label for="cedula">Residente/Visitante:</label><br>
+                        <input type="text" id="residente_visitante" name="residente_visitante"><br>
+                        <label for="nombres">Vehiculo:</label><br>
+                        <input type="text" id="vehiculo" name="vehiculo"><br><br>
+                        <button><a>Registrar Peaton</a></button>  
+                </div>
+                <div class="form2">
+                        <input type="radio" id="vehiculo" name="identificacion" value="2">
+                        <label for="vehiculo">Vehiculo</label><br><br>
+                            <label for="cedula">Placa:</label><br>
+                            <input type="text" id="placa" name="placa"><br>
+                            <label for="nombres">Unidad:</label><br>
+                            <input type="text" id="unidad" name="unidad"><br>
+                            <label for="cedula">Residente/Visitante:</label><br>
+                            <input type="text" id="residente_visitante" name="residente_visitante"><br><br>
+                            <button><a>Registrar Vehiculo</a></button> 
+                </div>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
