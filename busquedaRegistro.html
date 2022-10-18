@@ -8,38 +8,38 @@
     <link rel="stylesheet" href="../controlacceso-1/estilos.css">
 </head>
 <body>
-    <div>
-        <h1>Control de Acceso a Unidad Residencial</h1>
+            <h1>Control de Acceso a Unidad Residencial</h1>
+
+    <div class="grid-container" >
+        <div >
+            <ul>
+                <li><a href="../controlacceso-1/registroAcceso.html">Registro de Acceso</a></li>
+                <li><a href="../controlacceso-1/registroUsuario.html">Registro de Usuario</a></li>
+                <li><a href="../controlacceso-1/busquedaRegistro.html">Busqueda de Registro</a></li>
+            </ul>
+        </div>
+
+        <div class="relative">
+                <h2>Busqueda de Registro</h2>
+
+        <form>
+            <input type="radio" id="unidad" name="unidad" value="1">
+            <label for="unidad">Unidad:</label>
+            <input type="text" id="unidad" name="unidad">
+
+            <input type="radio" id="peaton" name="identificacion" value="2">
+            <label for="cedula">Cédula:</label>
+            <input type="text" id="cedula" name="cedula">
+
+            <input type="radio" id="vehiculo" name="identificacion" value="3">
+            <label for="placa">Placa:</label>
+            <input type="text" id="placa" name="placa">
+
+            <br><br><button><a>Buscar</a></button>
+        </form>
+
+        </div>
     </div>
 
-    <div>
-        <ul>
-            <li><a href="../controlacceso-1/registroAcceso.html">Registro de Acceso</a></li>
-            <li><a href="../controlacceso-1/registroUsuario.html">Registro de Usuario</a></li>
-            <li><a href="../controlacceso-1/busquedaRegistro.html">Busqueda de Registro</a></li>
-        </ul>
-    </div>
-
-    <div>
-            <h2>Busqueda de Registro</h2>
-
-    <form>
-        <input type="radio" id="unidad" name="unidad" value="1">
-        <label for="unidad">Unidad:</label>
-        <input type="text" id="unidad" name="unidad">
-
-        <input type="radio" id="peaton" name="identificacion" value="2">
-        <label for="cedula">Cédula:</label>
-        <input type="text" id="cedula" name="cedula">
-
-        <input type="radio" id="vehiculo" name="identificacion" value="3">
-        <label for="placa">Placa:</label>
-        <input type="text" id="placa" name="placa">
-
-        <br><button><a>Buscar</a></button>
-    </form>
-
-    </div>
-    
 </body>
 </html>
