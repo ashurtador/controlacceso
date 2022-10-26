@@ -1,5 +1,5 @@
-/*
-const API ="https://rickandmortyapi.com/api/character"
+
+const API ="https://baa994c4-3af0-48fe-b187-1434d36c9dec.mock.pstmn.io"
 
 export default async (id)=>{
 
@@ -14,4 +14,3 @@ export default async (id)=>{
         console.log("Error en el fetch", error)
     }
 }
-*/

@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ashurtador/controlacceso/issues"
   },
-  "homepage": "https://github.com/ashurtador/controlacceso#readme"
+  "homepage": "https://github.com/ashurtador/controlacceso#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

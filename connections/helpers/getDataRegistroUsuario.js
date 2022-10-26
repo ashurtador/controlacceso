@@ -1,5 +1,5 @@
 /*
-const API ="https://rickandmortyapi.com/api/character"
+const API ="https://85e54f31-4e0e-42db-a2bb-0068478ffa50.mock.pstmn.io"
 
 export default async (id)=>{
 
