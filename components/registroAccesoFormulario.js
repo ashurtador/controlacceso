@@ -8,18 +8,22 @@ const registroAccesoFormulario = ()=>{
         <div class="col-3">
             <input type="radio" id="peaton" name="identificacion" value="cedula">
             <label for="cedula">Cédula:</label>
-            <input type="text" id="cedula" name="cedula">
+            <input type="text" id="cedula" name="cedula"><br>
+
+            <br><button><a>Registrar Peaton</a></button><br>  
+           
         </div>
         <div class="col-3">
             <input type="radio" id="vehiculo" name="identificacion" value="placa">
             <label for="placa">Placa:</label>
-            <input type="text" id="placa" name="placa">
+            <input type="text" id="placa" name="placa"><br>
+
+            <br><button><a>Registrar Vehiculo</a></button><br>  
+            
         </div>
       </div>
 
-<div class="d-grid gap-2 col-2 mx-auto">
-    <br><button><a>Registrar</a></button><br>  
-</div>
+
 
 </form>
     
